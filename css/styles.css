@@ -272,7 +272,7 @@ h2{
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  max-height: 120px;
+  min-height: 120px;
   background-color: var(--white-background);
 }
 
@@ -404,7 +404,7 @@ h2{
   height: 100%;
   border: 1px solid var(--white-border-icon);
   border-radius: 4px;
-  color: var(--white-linkborder-icon);
+  color: var(--white-border-icon);
   transition: color var(--timing-function);
 }
 
