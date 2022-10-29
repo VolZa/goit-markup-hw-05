@@ -550,17 +550,13 @@ h2{
   border: 1px solid var(--white-border); 
 }
 
-.galery__card-link {
-  /* position: relative; */
-}
-
-.galery__card-wripper:hover .galery__card-text,
-.galery__card-wripper:hover .galery__card-tumb::before {
+.galery__card-link:hover .galery__card-text,
+.galery__card-link:hover .galery__card-tumb::before {
   transform: translateY(0);
 }
 
-.galery__card-wripper:hover,
-.galery__card-wripper:focus{
+.galery__card-link:hover,
+.galery__card-link:focus{
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
